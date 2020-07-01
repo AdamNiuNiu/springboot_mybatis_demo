@@ -2,7 +2,99 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.example.springboot_mybatis_demo.mapper.UserMapper">
+    
     <select id="queryUserList" resultType="user">
         select * from user2
+    </select>
+    
+    <insert id="insertUser" parameterType="com.example.springboot_mybatis_demo.entity.User">
+        <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Long">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into user2(name,age,email) values(#{name},#{age},#{email})
+    </insert>
+
+    <delete id="deleteUserById" parameterType="java.lang.Long">
+        delete from user2 where id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="com.example.springboot_mybatis_demo.entity.User">
+        update user2 set name = #{name},age = #{age},email = #{email} where id = #{id}
+    </update>
+
+    <select id="findUserByName" parameterType="java.lang.String"
+            resultMap="userList">
+        select * from user2  where name like '%${value}%'
+    </select>
+
+    <resultMap id="userList" type="com.example.springboot_mybatis_demo.entity.User">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="age" property="age"></result>
+        <result column="email" property="email"></result>
+    </resultMap>
+
+    <select id="findUserByQueryVo" parameterType="com.example.springboot_mybatis_demo.QueryVo.UserQueryVo" resultType="user">
+        select * from user2 where name like '%${user.name}%'
+    </select>
+
+    <select id="findUserCount" resultType="int">
+        select count(1) from user2
+    </select>
+
+    <select id="findUserByIdOrName" parameterType="com.example.springboot_mybatis_demo.entity.User"
+            resultType="com.example.springboot_mybatis_demo.entity.User">
+        select * from user2
+        <where>
+            <if test="id!=null">
+                and id=#{id}
+            </if>
+            <if test="name!=null and name!=''">
+                and name like '%${name}%'
+            </if>
+        </where>
+    </select>
+
+    <update id="updateSetUserById" parameterType="com.example.springboot_mybatis_demo.entity.User">
+        update user2
+        <set>
+            <if test="name!=null and name!=''">
+                name = #{name},
+            </if>
+            <if test="age!=null and age!=''">
+                age = #{age},
+            </if>
+            <if test="email!=null and email!=''">
+                email = #{email},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="findUserInfoList" resultMap="UserInfoList">
+        SELECT
+	        t1.userName,
+	        t1.password,
+	        t1.name name1,
+	        t2.name name2,
+	        t2.age,
+	        t2.email
+        FROM
+	    USER t1,user2 t2
+        WHERE
+	        t1.id = t2.id
+    </select>
+    <resultMap id="UserInfoList" type="com.example.springboot_mybatis_demo.QueryVo.UserInfoVo">
+        <id column="id" property="id"></id>
+        <result column="userName" property="userName"></result>
+        <result column="password" property="password"></result>
+        <result column="name1" property="name1"></result>
+        <result column="name1" property="name1"></result>
+        <result column="age" property="age"></result>
+        <result column="email" property="email"></result>
+    </resultMap>
+
+    <select id="selectUserInfoList" resultType="user">
+        select * from user2 u where u.name like '%${name}%'
     </select>
 </mapper>
