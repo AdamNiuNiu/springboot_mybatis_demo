@@ -10539,3 +10539,430 @@ org.apache.ibatis.reflection.ReflectionException: There is no setter for propert
 2020-07-01 18:52:49.263|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
 2020-07-01 18:52:49.265|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 350|HikariPool-1 - Shutdown initiated...
 2020-07-01 18:52:49.277|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.zaxxer.hikari.HikariDataSource.close() 352|HikariPool-1 - Shutdown completed.
+2020-07-05 12:11:40.899|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 1508 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:11:40.921|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:11:44.443|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:11:44.465|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:11:44.466|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:11:44.467|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:11:44.734|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:11:44.734|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 3539 ms
+2020-07-05 12:11:45.072|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:11:45.842|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:11:47.422|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:11:47.663|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:11:48.262|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:11:48.329|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:11:48.332|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:11:48.374|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:11:48.499|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:11:48.945|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 9.317 seconds (JVM running for 13.61)
+2020-07-05 12:12:39.980|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:12:39.981|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:12:39.993|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 12 ms
+2020-07-05 12:12:54.113|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:12:54.146|ERROR|http-nio-8088-exec-6|http-nio-8088-exec-6|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 68301
+2020-07-05 12:12:54.148|ERROR|http-nio-8088-exec-6|http-nio-8088-exec-6|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 68332
+2020-07-05 12:12:54.151|ERROR|http-nio-8088-exec-6|http-nio-8088-exec-6|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 68348
+2020-07-05 12:12:54.154|ERROR|http-nio-8088-exec-6|http-nio-8088-exec-6|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 68360
+2020-07-05 12:12:54.157|ERROR|http-nio-8088-exec-6|http-nio-8088-exec-6|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 68379
+2020-07-05 12:12:54.308|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:34:56.680|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:34:56.683|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:34:56.686|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:35:04.761|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 14380 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:35:04.775|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:35:07.056|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:35:07.069|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:35:07.070|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:35:07.070|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:35:07.223|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:35:07.223|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 2383 ms
+2020-07-05 12:35:07.354|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:35:07.731|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:35:08.707|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:35:08.863|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:35:09.226|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:35:09.266|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:35:09.267|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:35:09.292|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:35:09.376|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:35:09.733|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 6.175 seconds (JVM running for 9.073)
+2020-07-05 12:35:17.880|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:35:17.880|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:35:17.890|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 10 ms
+2020-07-05 12:35:17.919|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:35:18.057|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:35:44.027|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:35:44.033|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:35:55.359|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:35:55.361|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:35:55.371|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:36:03.990|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 10496 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:36:04.004|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:36:06.157|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:36:06.171|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:36:06.171|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:36:06.172|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:36:06.340|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:36:06.340|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 2113 ms
+2020-07-05 12:36:06.454|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:36:06.823|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:36:07.746|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:36:07.880|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:36:08.184|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:36:08.222|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:36:08.223|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:36:08.246|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:36:08.309|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:36:08.651|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 5.819 seconds (JVM running for 8.92)
+2020-07-05 12:36:33.599|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:36:33.599|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:36:33.607|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 8 ms
+2020-07-05 12:36:33.636|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:36:33.742|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:36:47.633|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:36:47.636|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:36:47.645|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:40:53.626|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 6896 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:40:53.637|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:40:55.543|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:40:55.559|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:40:55.560|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:40:55.560|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:40:55.726|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:40:55.726|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 2039 ms
+2020-07-05 12:40:55.896|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:40:56.256|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:40:57.212|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:40:57.308|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:40:57.566|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:40:57.604|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:40:57.605|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:40:57.624|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:40:57.673|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:40:57.905|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 5.577 seconds (JVM running for 8.642)
+2020-07-05 12:41:04.548|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:41:04.548|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:41:04.558|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 9 ms
+2020-07-05 12:41:04.589|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:41:04.713|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:43:32.106|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:43:32.109|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:43:32.119|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:43:43.509|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 13468 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:43:43.522|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:43:45.668|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:43:45.683|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:43:45.684|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:43:45.684|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:43:45.846|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:43:45.846|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 2269 ms
+2020-07-05 12:43:46.016|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:43:46.500|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:43:47.485|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:43:47.611|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:43:47.928|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:43:47.960|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:43:47.962|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:43:47.984|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:43:48.034|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:43:48.296|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 6.349 seconds (JVM running for 9.613)
+2020-07-05 12:46:27.799|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:46:27.805|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:46:27.882|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:46:48.146|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 3500 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:46:48.183|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:46:52.711|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:46:52.738|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:46:52.739|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:46:52.740|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:46:53.027|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:46:53.027|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4655 ms
+2020-07-05 12:46:53.268|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:46:53.875|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:46:55.781|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:46:56.063|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:46:56.711|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:46:56.782|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:46:56.785|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:46:56.826|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:46:56.955|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:46:57.478|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 11.576 seconds (JVM running for 16.796)
+2020-07-05 12:47:06.566|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:47:06.566|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:47:06.582|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 16 ms
+2020-07-05 12:47:06.656|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:47:06.904|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:49:48.695|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:49:48.700|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:49:48.714|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
+2020-07-05 12:53:34.983|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 9752 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:53:35.000|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:53:39.712|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:53:39.749|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:53:39.753|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:53:39.754|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:53:40.112|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:53:40.112|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4999 ms
+2020-07-05 12:53:40.172|ERROR|main|main|org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup() 61|Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'druidServlet' defined in class path resource [com/example/springboot_mybatis_demo/druidConfig/DruidConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is java.lang.ClassCastException: com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties$StatViewServlet cannot be cast to javax.servlet.Servlet
+2020-07-05 12:53:40.282|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Stopping service [Tomcat]
+2020-07-05 12:53:40.356|WARN |main|main|org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.refresh() 558|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-07-05 12:53:40.389|INFO |main|main|org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage() 136|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-05 12:54:08.627|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 15744 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:54:08.648|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:54:12.755|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:54:12.782|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:54:12.786|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:54:12.787|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:54:13.104|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:54:13.105|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4342 ms
+2020-07-05 12:54:13.137|ERROR|main|main|org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup() 61|Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'druidServlet' defined in class path resource [com/example/springboot_mybatis_demo/druidConfig/DruidConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is java.lang.ClassCastException: com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties$StatViewServlet cannot be cast to javax.servlet.Servlet
+2020-07-05 12:54:13.211|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Stopping service [Tomcat]
+2020-07-05 12:54:13.241|WARN |main|main|org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.refresh() 558|Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2020-07-05 12:54:13.263|INFO |main|main|org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage() 136|
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-07-05 12:54:13.314|ERROR|main|main|org.springframework.boot.SpringApplication.reportFailure() 837|Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.main(SpringbootMybatisDemoApplication.java:12) ~[classes/:?]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:437) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:176) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	... 9 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'druidServlet' defined in class path resource [com/example/springboot_mybatis_demo/druidConfig/DruidConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is java.lang.ClassCastException: com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties$StatViewServlet cannot be cast to javax.servlet.Servlet
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:437) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:176) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	... 9 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.web.servlet.ServletRegistrationBean]: Factory method 'druidServlet' threw exception; nested exception is java.lang.ClassCastException: com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties$StatViewServlet cannot be cast to javax.servlet.Servlet
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:437) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:176) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	... 9 more
+Caused by: java.lang.ClassCastException: com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties$StatViewServlet cannot be cast to javax.servlet.Servlet
+	at com.example.springboot_mybatis_demo.druidConfig.DruidConfiguration.druidServlet(DruidConfiguration.java:19) ~[classes/:?]
+	at com.example.springboot_mybatis_demo.druidConfig.DruidConfiguration$$EnhancerBySpringCGLIB$$8c849fe0.CGLIB$druidServlet$1(<generated>) ~[classes/:?]
+	at com.example.springboot_mybatis_demo.druidConfig.DruidConfiguration$$EnhancerBySpringCGLIB$$8c849fe0$$FastClassBySpringCGLIB$$9897d58a.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at com.example.springboot_mybatis_demo.druidConfig.DruidConfiguration$$EnhancerBySpringCGLIB$$8c849fe0.druidServlet(<generated>) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:484) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) ~[?:1.8.0_211]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) ~[?:1.8.0_211]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[?:1.8.0_211]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:437) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:176) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	... 9 more
+2020-07-05 12:55:56.268|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarting() 55|Starting SpringbootMybatisDemoApplication on DESKTOP-CAVF6SU with PID 17324 (E:\tool\idea\workdir\springboot_mybatis_demo\target\classes started by My in E:\tool\idea\workdir\springboot_mybatis_demo)
+2020-07-05 12:55:56.292|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStartupProfileInfo() 651|No active profile set, falling back to default profiles: default
+2020-07-05 12:56:00.181|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize() 108|Tomcat initialized with port(s): 8088 (http)
+2020-07-05 12:56:00.213|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Initializing ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:56:00.216|INFO |main|main|org.apache.catalina.core.StandardService.log() 173|Starting service [Tomcat]
+2020-07-05 12:56:00.218|INFO |main|main|org.apache.catalina.core.StandardEngine.log() 173|Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-05 12:56:00.655|INFO |main|main|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring embedded WebApplicationContext
+2020-07-05 12:56:00.655|INFO |main|main|org.springframework.web.context.ContextLoader.prepareWebApplicationContext() 284|Root WebApplicationContext: initialization completed in 4254 ms
+2020-07-05 12:56:00.862|INFO |main|main|org.springframework.boot.web.servlet.RegistrationBean.register() 110|Servlet statViewServlet was not registered (possibly already registered?)
+2020-07-05 12:56:00.870|INFO |main|main|org.springframework.boot.web.servlet.RegistrationBean.register() 110|Filter webStatFilter was not registered (possibly already registered?)
+2020-07-05 12:56:01.071|INFO |main|main|com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource() 56|Init DruidDataSource
+2020-07-05 12:56:01.888|INFO |main|main|com.alibaba.druid.pool.DruidDataSource.init() 983|{dataSource-1} inited
+2020-07-05 12:56:03.542|INFO |main|main|springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() 69|Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-05 12:56:03.825|INFO |main|main|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.initialize() 181|Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:56:04.394|INFO |main|main|org.apache.coyote.http11.Http11NioProtocol.log() 173|Starting ProtocolHandler ["http-nio-8088"]
+2020-07-05 12:56:04.470|INFO |main|main|org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start() 220|Tomcat started on port(s): 8088 (http) with context path '/springboot_mybatis_demo'
+2020-07-05 12:56:04.472|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 147|Context refreshed
+2020-07-05 12:56:04.511|INFO |main|main|springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start() 150|Found 1 custom documentation plugin(s)
+2020-07-05 12:56:04.636|INFO |main|main|springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan() 41|Scanning for api listing references
+2020-07-05 12:56:05.257|INFO |main|main|com.example.springboot_mybatis_demo.SpringbootMybatisDemoApplication.logStarted() 61|Started SpringbootMybatisDemoApplication in 10.763 seconds (JVM running for 16.017)
+2020-07-05 12:56:15.574|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/springboot_mybatis_demo].log() 173|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:56:15.574|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 525|Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:56:15.590|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|org.springframework.web.servlet.DispatcherServlet.initServletBean() 547|Completed initialization in 16 ms
+2020-07-05 12:56:15.664|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:15.903|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:52.827|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:52.833|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:53.541|INFO |http-nio-8088-exec-5|http-nio-8088-exec-5|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:53.545|INFO |http-nio-8088-exec-5|http-nio-8088-exec-5|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:53.712|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:53.716|INFO |http-nio-8088-exec-6|http-nio-8088-exec-6|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:53.896|INFO |http-nio-8088-exec-8|http-nio-8088-exec-8|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:53.901|INFO |http-nio-8088-exec-8|http-nio-8088-exec-8|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.057|INFO |http-nio-8088-exec-10|http-nio-8088-exec-10|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.062|INFO |http-nio-8088-exec-10|http-nio-8088-exec-10|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.240|INFO |http-nio-8088-exec-9|http-nio-8088-exec-9|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.246|INFO |http-nio-8088-exec-9|http-nio-8088-exec-9|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.401|INFO |http-nio-8088-exec-4|http-nio-8088-exec-4|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.405|INFO |http-nio-8088-exec-4|http-nio-8088-exec-4|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.554|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.560|INFO |http-nio-8088-exec-1|http-nio-8088-exec-1|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.700|INFO |http-nio-8088-exec-7|http-nio-8088-exec-7|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.704|INFO |http-nio-8088-exec-7|http-nio-8088-exec-7|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.844|INFO |http-nio-8088-exec-2|http-nio-8088-exec-2|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:54.851|INFO |http-nio-8088-exec-2|http-nio-8088-exec-2|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:54.995|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:55.000|INFO |http-nio-8088-exec-3|http-nio-8088-exec-3|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:56:55.131|INFO |http-nio-8088-exec-5|http-nio-8088-exec-5|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:56:55.138|INFO |http-nio-8088-exec-5|http-nio-8088-exec-5|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:58:01.650|INFO |http-nio-8088-exec-7|http-nio-8088-exec-7|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 116|-----开始findUserInfoList-----
+2020-07-05 12:58:01.672|ERROR|http-nio-8088-exec-7|http-nio-8088-exec-7|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 66524
+2020-07-05 12:58:01.673|ERROR|http-nio-8088-exec-7|http-nio-8088-exec-7|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 119800
+2020-07-05 12:58:01.675|ERROR|http-nio-8088-exec-7|http-nio-8088-exec-7|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 119811
+2020-07-05 12:58:01.676|ERROR|http-nio-8088-exec-7|http-nio-8088-exec-7|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 119821
+2020-07-05 12:58:01.678|ERROR|http-nio-8088-exec-7|http-nio-8088-exec-7|com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal() 1481|discard long time none received connection. , jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, jdbcUrl : jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf8&useSSL=false&serverTimezone = GMT, lastPacketReceivedIdleMillis : 119839
+2020-07-05 12:58:01.685|INFO |http-nio-8088-exec-7|http-nio-8088-exec-7|com.example.springboot_mybatis_demo.web.UserController.findUserInfoList() 119|-----UserInfoVo(userName=用户姓名, password=测试密码, name1=李四的姓名, name2=lisi, age=11, email=lisi@qq.com)-----
+2020-07-05 12:58:39.861|INFO |SpringContextShutdownHook|SpringContextShutdownHook|org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown() 218|Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:58:39.862|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2024|{dataSource-1} closing ...
+2020-07-05 12:58:39.864|INFO |SpringContextShutdownHook|SpringContextShutdownHook|com.alibaba.druid.pool.DruidDataSource.close() 2096|{dataSource-1} closed
